@@ -1,0 +1,35 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;  
+}
+
+.main-div{
+  display: flex;
+}
+
+button {
+  border: 1px solid transparent;
+  margin: 10px;
+  font-family:cursive;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover{
+  transform: translateY(-3px);
+  border:none;
+  filter: brightness(1.5);
+}
+
+.yes{
+  background-color: rgb(58, 252, 58);
+  color:white;
+}
+
+.no{
+  background-color: rgb(239, 94, 94);
+  color: white;
+}
